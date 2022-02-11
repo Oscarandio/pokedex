@@ -1,0 +1,66 @@
+body {
+  background-color: hsl(206, 70%, 65%, 0.6);
+  font-family: Roboto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: whitesmoke;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon-block {
+  width: 300px;
+
+  margin: 20px;
+  padding: 40px;
+
+  color: darkslategrey;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: hsl(206, 70%, 65%) 0px 4px 12px;
+
+  cursor: pointer;
+}
+
+.pokemon-block:hover {
+  transform: translate(0px, -10px);
+  transition: ease-in-out 0.1s;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-block img {
+  width: 290px;
+  transition: ease-in-out 0.4s;
+}
+
+.pokemon-block img:hover {
+  transform: scale(1.2);
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.number {
+  font-family: Roboto;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.type {
+  text-transform: capitalize;
+}
